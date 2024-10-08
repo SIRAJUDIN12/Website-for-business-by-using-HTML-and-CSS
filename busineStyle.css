@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgb(0,0,0,0.5)50%,rgb(0,0,0,0.5)50%), url(back1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    transition: 1s ease-out;
+}
+.logo:hover{
+    color: yellow;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+
+}
+ul li a:hover{
+    color: lawngreen;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.search input::placeholder{
+    color: white;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid greenyellow;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:hover{
+    background-color: lawngreen;
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
